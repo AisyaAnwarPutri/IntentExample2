@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
         button.setOnClickListener {
             val m_data = editText.text.toString()
             val m_intent = Intent(this@MainActivity,

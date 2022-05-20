@@ -9,6 +9,7 @@ class SecondActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_second)
 
+
         val m_data = intent.getStringExtra("main_activity_data")
         textView.setText(m_data)
 
